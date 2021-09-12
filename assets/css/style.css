@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.container {
+  border: 5px solid #aaa;
+}
+.item {
+  width: 50px;
+  /* height: 50px; */
+  padding: 10px;
+
+  border: 2px solid blue;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: pink;
+}
+.flex-parent {
+  display: flex; 
+  min-height: 50vh;
+  max-height: 60vh;
+  flex-direction: column;
+  justify-content: eve; 
+  align-items: center;
+  flex-wrap: wrap;
+
+}

@@ -52,3 +52,30 @@ body {
   text-align: center;
   margin-top: auto;
 }
+
+/*  page.html */
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  max-width: 400px;
+  border: 2px solid red;
+  margin: 10px;
+  padding: 10px;
+}
+.container > * {
+  flex-grow: 0.5;
+}
+.event-name{
+  margin: 10px 0;
+  margin-left: auto;
+}
+.event-date{
+  text-align: right;
+}
+.inner{
+  display: inline-block;
+  text-align: center;
+}
